@@ -22,14 +22,18 @@ export default function Footer() {
             We are so excited to celebrate this special day with our family and friends. Thank you for your continued love and blessings.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <a href="tel:9620339043" className="flex items-center gap-3 text-white/80 hover:text-gold transition-colors bg-white/5 py-3 px-6 rounded-full border border-white/10 hover:border-gold/30">
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
+            <a href="tel:9620339043" className="flex items-center gap-2.5 text-white/80 hover:text-gold transition-colors bg-white/5 py-2.5 px-5 rounded-full border border-white/10 hover:border-gold/30 text-sm">
               <BsTelephone />
               <span>9620 339 043</span>
             </a>
-            <a href="tel:9972590189" className="flex items-center gap-3 text-white/80 hover:text-gold transition-colors bg-white/5 py-3 px-6 rounded-full border border-white/10 hover:border-gold/30">
+            <a href="tel:9972590189" className="flex items-center gap-2.5 text-white/80 hover:text-gold transition-colors bg-white/5 py-2.5 px-5 rounded-full border border-white/10 hover:border-gold/30 text-sm">
               <BsTelephone />
               <span>9972 590 189</span>
+            </a>
+            <a href="tel:7975440730" className="flex items-center gap-2.5 text-white/80 hover:text-gold transition-colors bg-white/5 py-2.5 px-5 rounded-full border border-white/10 hover:border-gold/30 text-sm">
+              <BsTelephone />
+              <span>7975 440 730</span>
             </a>
           </div>
 
