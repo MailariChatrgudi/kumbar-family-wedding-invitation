@@ -8,7 +8,7 @@ const photos = [
   { src: "/photos/wedding-img-4.jpeg", alt: "Ceremony" },
   { src: "/photos/wedding-img-5jpeg.jpeg", alt: "Moments" },
   {
-    src: "/photos/WhatsApp Image 2026-04-21 at 12.32.33 PM.jpeg",
+    src: "/photos/highlights-special.jpeg",
     alt: "Special Moment",
   },
 ];
