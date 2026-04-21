@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           
           <h2 className="font-serif text-3xl md:text-5xl text-gold mb-6">
-            ಸಿದ್ದೇಶ್ & ಭೂಮಿಕಾ
+            ತಿಪ್ಪೇಶ್ & ಭೂಮಿಕಾ
           </h2>
           <p className="text-white/60 mb-12 max-w-lg mx-auto leading-relaxed">
             We are so excited to celebrate this special day with our family and friends. Thank you for your continued love and blessings.
@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-gold/30 to-transparent mb-8" />
           
           <p className="text-white/40 text-sm tracking-widest uppercase">
-            © 2026 Siddesh & Bhumika. All Rights Reserved.
+            © 2026 Thippesh & Bhumika. All Rights Reserved.
           </p>
         </motion.div>
       </div>

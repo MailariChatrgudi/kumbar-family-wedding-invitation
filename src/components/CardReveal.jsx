@@ -226,7 +226,7 @@ export default function CardReveal({ children }) {
           style={{ x: rightX, opacity: panelOpacity }}
           className="absolute top-0 right-0 w-[51%] h-full z-30 select-none"
         >
-          <PanelFace side="right" name="ಸಿದ್ದೇಶ್" role="Groom" />
+          <PanelFace side="right" name="ತಿಪ್ಪೇಶ್" role="Groom" />
 
           {/* Left-edge hinge */}
           <motion.div

@@ -56,10 +56,7 @@ export default function CoupleSection() {
           <div className="w-px h-12 bg-gold/50 mt-3" />
         </motion.div>
 
-        {/* ── Divider (mobile) ── */}
-        <div className="md:hidden font-serif text-4xl text-gold italic">
-          &
-        </div>
+        
 
         {/* ── Groom ── */}
         <motion.div
@@ -78,7 +75,7 @@ export default function CoupleSection() {
               loading="lazy"
             />
           </div>
-          <h3 className="font-serif text-2xl sm:text-3xl text-ink mb-0.5">ಸಿದ್ದೇಶ್</h3>
+          <h3 className="font-serif text-2xl sm:text-3xl text-ink mb-0.5">ತಿಪ್ಪೇಶ್</h3>
           <p className="text-muted tracking-widest text-xs uppercase">Groom</p>
         </motion.div>
       </div>
