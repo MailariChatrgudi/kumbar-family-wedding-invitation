@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: Playfair Display, ui-serif, Georgia, serif;
+  --font-sans: Poppins, ui-sans-serif, system-ui, sans-serif;
+  --color-gold: #c9a44b;
+  --color-gold-2: #f1e0ad;
+  --color-ink: #132035;
+  --color-blue: #eaf3ff;
+  --color-blue-2: #d8ecff;
+}
+
+:root{
+  --bg: #f6fbff;
+  --paper: #ffffff;
+  --ink: #132035;
+  --muted: #5d6a7e;
+  --blue: #eaf3ff;
+  --blue-2: #d8ecff;
+  --gold: #c9a44b;
+  --gold-2: #f1e0ad;
+  --border: rgba(19, 32, 53, 0.10);
+  --shadow: 0 18px 50px rgba(17, 24, 39, 0.10);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(1200px 500px at 20% 0%, var(--blue) 0%, transparent 60%),
+    radial-gradient(900px 600px at 100% 10%, rgba(201, 164, 75, 0.08) 0%, transparent 55%),
+    var(--bg);
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root { min-height: 100svh; }
+
+::selection { background: rgba(201, 164, 75, 0.25); }

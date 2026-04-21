@@ -1,0 +1,12 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7F3E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <rect x="52" y="52" width="1096" height="696" rx="28" fill="#FFFFFF" fill-opacity="0.70" stroke="#132035" stroke-opacity="0.10"/>
+  <text x="600" y="408" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="28" fill="#132035" fill-opacity="0.70">Highlight 2</text>
+</svg>
+

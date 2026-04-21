@@ -1,0 +1,25 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF3FF"/>
+      <stop offset="0.55" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7F3E8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1250 220) rotate(125) scale(650 460)">
+      <stop stop-color="#C9A44B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#C9A44B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g opacity="0.75">
+    <path d="M200 830C350 710 450 640 610 640C770 640 850 745 985 745C1120 745 1230 680 1390 560" stroke="#C9A44B" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M220 760C360 650 470 600 625 600C780 600 870 695 1000 695C1130 695 1240 635 1380 520" stroke="#132035" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="520" y="360" width="560" height="280" rx="28" fill="#FFFFFF" fill-opacity="0.75" stroke="#132035" stroke-opacity="0.10"/>
+    <text x="800" y="470" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="28" fill="#132035" fill-opacity="0.70">Couple Photo</text>
+    <text x="800" y="520" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#5D6A7E" fill-opacity="0.75">Replace with your hero background (.webp)</text>
+  </g>
+</svg>
+
