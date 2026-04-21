@@ -242,7 +242,7 @@ export default function CardReveal({ children }) {
         {/* Centre gold seam */}
         <motion.div
           style={{ opacity: panelOpacity }}
-          className="absolute inset-y-0 left-1/2 -translate-x-1/2 w-px bg-gradient-to-b from-transparent via-[#c9a44b]/70 to-transparent z-40 pointer-events-none"
+          className="hidden md:block absolute inset-y-0 left-1/2 -translate-x-1/2 w-px bg-gradient-to-b from-transparent via-[#c9a44b]/70 to-transparent z-40 pointer-events-none"
         />
 
         {/* "Open the card" hint */}
